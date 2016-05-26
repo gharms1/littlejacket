@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700|Inconsolata:400,700);
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
+}
+
+body {
+  font-family: "work sans";
+  font-weight: 300;
+}
+
+/* navigation */
+nav {
+ width: 100px;
+ padding-bottom: 1em;
+}
+
+/* calendar */
+
+/* days */
+.days {
+    padding: 10px 0;
+    margin: 0 auto;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12.5%;
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-size:1.5em;
+}
+
+hr {
+  color: rgba(133,214,253,1);
+}
+
+/* day highlighted */
+.days li .active {
+    padding: 5px;
+    background: rgba(133,214,253,1);
+    color: white;
+    font-weight: 700;
+}
+
+.days li .month {
+    padding: 5px;
+    font-weight: 700;
+    font-size: .5em;
+    color: rgba(133,214,253,1);
+}
+
+footer p{
+  font-family: inconsolata;
+  text-align: center;
+  background-color: rgba(133,214,253,1);
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
