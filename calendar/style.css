@@ -22,13 +22,14 @@ body {
 }
 
 main {
-
+  padding-top: 5em;
   margin: 0 auto;
 }
 
 header {
     text-align: center;
-    width: 1000px;
+    max-width: 1000px;
+    position: fixed;
 }
 a {
   text-decoration: none;
@@ -50,11 +51,11 @@ nav {
  padding-bottom: 1em;
  margin-left: 1em;
  margin-top: .8em;
- float: center;
+ float:left;
 
 }
 
-
+/*
 
 nav ul{
   list-style-type: none;
@@ -78,7 +79,7 @@ nav ul li a{
  color: black;
 }
 
-
+*/
 
 
 .days {
