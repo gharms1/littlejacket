@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700|Inconsolata:400,700);
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
+}
+
+body {
+  font-family: "work sans", Arial, sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+main {
+  padding-top: 5em;
+  margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    max-width: 1000px;
+    position: fixed;
+}
+a {
+  text-decoration: none;
+}
+/* navigation */
+nav {
+  display: block;
+  padding: .25em 1em;
+  margin: 0 auto;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+*{
+  box-sizing: border-box;
+}
+
+.logo{
+ width: 100px;
+ padding-bottom: 1em;
+ margin-left: 1em;
+ margin-top: .8em;
+ float:left;
+
+}
+
+/* numeral */
+.numeral div{
+  padding-top: 10em;
+  margin-left: -25px;
+  width: 90%;
+  position: fixed;
+  max-width: 1000px;
+}
+
+/* footer */
+footer {
+  font-family: inconsolata;
+  text-align: center;
+  /*background-color: rgba(133,214,253,1);*/
+  color: black;
+  font-size: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top: 1em;
+
+}
+
+
+
+
+
+/* Media Screen 600 */
+@media screen and (min-width: 600px) {
+
+  /* days */
+  .days {
+  }
+
+  .days li {
+    font-size:2em;
+  }
+  nav img{
+    width: 150px;
+  }
+
+}
+
+/* Media Screen 600 */
+@media screen and (min-width: 800px) {
+
+  /* days */
+  .days {
+  }
+
+  .days li {
+    font-size:4em;
+  }
+
+
+}
