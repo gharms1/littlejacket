@@ -19,6 +19,9 @@ body {
   font-weight: 300;
   margin: 0 auto;
   max-width: 1200px;
+  border-top: solid;
+  border-width: 20px;
+  border-color: rgba(63,169,245,1);
 }
 
 main {
@@ -30,6 +33,7 @@ header {
     text-align: center;
     max-width: 1000px;
     position: fixed;
+
 }
 a {
   text-decoration: none;
@@ -75,7 +79,7 @@ dl, dt, dd {
 
 dt {
   font-weight: 700;
-  font-size: 1.05em;
+  font-size: 1.0em;
 }
 
 .long dt {
@@ -87,7 +91,7 @@ dt {
 dd {
     padding-bottom: 1em;
     font-family: "Roboto Mono";
-    font-size: .95em;
+    font-size: 1em;
     font-weight: 300;
 }
 .shortlist{
@@ -102,9 +106,29 @@ dd {
 
 /* image */
 .longlist img{
-  max-width: 100%
-}
+  max-width: 100%;
+  border-top: solid;
+  border-width: 5px;
+  border-color: rgba(63,169,245,1);
 
+}
+figure {
+  margin: auto;
+  padding-bottom: 4em;
+}
+figcaption {
+  width: 50%;
+  float: right;
+  padding-top: .5em;
+  margin-top: -5px;
+  background-color: rgba(133,214,253,1);
+  border-width: 10px;
+  padding-left: .5em;
+  padding-bottom: .5em;
+  font-size: .8em;
+  font-weight: 500;
+
+}
 /* footer */
 footer {
   font-family: "Roboto Mono";
