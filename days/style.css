@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700|Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700|Roboto+Mono:300,700);
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  padding-top: 5em;
+  padding-top: 6em;
   margin: 0 auto;
 }
 
@@ -62,13 +62,53 @@ nav {
   width: 90%;
   position: fixed;
   max-width: 1000px;
+  z-index:-1;
+}
+
+/* Lists */
+
+dl, dt, dd {
+  margin:0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+dt {
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
+.long dt {
+  padding-bottom: 1em;
+}
+.long dl, .longlist {
+  padding-bottom: 4em;
+}
+dd {
+    padding-bottom: 1em;
+    font-family: "Roboto Mono";
+    font-size: .95em;
+    font-weight: 300;
+}
+.shortlist{
+  padding-bottom: 2em;
+}
+
+.short {
+  float: left;
+  width:50%;
+}
+
+
+/* image */
+.longlist img{
+  max-width: 100%
 }
 
 /* footer */
 footer {
-  font-family: inconsolata;
+  font-family: "Roboto Mono";
   text-align: center;
-  /*background-color: rgba(133,214,253,1);*/
   color: black;
   font-size: 1em;
   padding-top: .5em;
@@ -83,30 +123,37 @@ footer {
 
 /* Media Screen 600 */
 @media screen and (min-width: 600px) {
+  main {
+    padding-top: 8em;
+    font-size:1.1em;
+  }
 
   /* days */
-  .days {
-  }
 
-  .days li {
-    font-size:2em;
-  }
   nav img{
     width: 150px;
   }
+  .shortlist {
+    float: left;
+    width:25%;
+  }
+  .short {
+    width:100%;
+  }
+  .longlist {
+    width:75%;
+    float: right;
+  }
 
+  dl, dt, dd {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
 
 /* Media Screen 600 */
 @media screen and (min-width: 800px) {
 
-  /* days */
-  .days {
-  }
-
-  .days li {
-    font-size:4em;
-  }
 
 
 }
