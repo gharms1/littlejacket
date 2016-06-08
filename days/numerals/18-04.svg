@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 468.8 305" style="enable-background:new 0 0 468.8 305;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 523.4 305" style="enable-background:new 0 0 523.4 305;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
-	.st1{enable-background:new    ;}
-	.st2{fill:#85D6FD;}
+	.st0{fill:#85D6FD;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#85D6FD;stroke-miterlimit:10;}
+	.st3{fill:#3FA9F5;}
+	.st4{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#85D6FD;stroke-width:15;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#85D6FD;stroke-width:3;stroke-miterlimit:10;}
 </style>
 <g id="Grid">
 </g>
@@ -14,12 +18,9 @@
 </g>
 <g id="Main">
 	<g>
-		<rect class="st0" width="809.7" height="480.2"/>
-	</g>
-	<g class="st1">
-		<path class="st2" d="M146.3,20.8v264.5H79.7V88.6c-20.6,18.7-41.4,29.9-62.5,33.7l-6.4-56.9c13.6-1.6,28.8-7,45.5-16.2
-			C73,39.9,84.7,30.4,91.4,20.8H146.3z"/>
-		<path class="st2" d="M374.1,37.5c17.8,13.2,26.6,31.3,26.6,54.3c0,13.6-3.7,25.4-11,35.5c-7.4,10-17.7,17.6-31.1,22.6v0.4
+		<path class="st0" d="M146.3,20.8v264.5H79.7V88.6c-20.6,18.7-41.4,29.9-62.5,33.7l-6.4-56.9c13.6-1.6,28.8-7,45.5-16.2
+			C73,39.9,84.7,30.5,91.4,20.8H146.3z"/>
+		<path class="st0" d="M374.1,37.5c17.8,13.2,26.6,31.3,26.6,54.3c0,13.6-3.7,25.4-11,35.5c-7.4,10-17.7,17.6-31.1,22.6v0.4
 			c16.3,5.3,28.8,13.5,37.5,24.4c8.7,11,13,24.4,13,40.5c0,23-9.6,41.1-28.7,54.3c-19.1,13.2-45.5,19.8-79.1,19.8
 			c-33.1,0-59.3-6.6-78.5-19.8c-19.2-13.2-28.9-31.3-28.9-54.3c0-16,4.3-29.5,13-40.5c8.7-11,21.2-19.1,37.5-24.4v-0.4
 			c-13.4-5.1-23.7-12.6-31.1-22.6c-7.4-10-11-21.8-11-35.5c0-23,8.9-41.1,26.6-54.3c17.8-13.2,41.9-19.8,72.3-19.8

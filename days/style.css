@@ -37,6 +37,13 @@ header {
 }
 a {
   text-decoration: none;
+  color: rgba(63,169,245,1);
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: 700;
+  color: rgba(63,169,245,1);
 }
 /* navigation */
 nav {
@@ -93,6 +100,7 @@ dd {
     font-family: "Roboto Mono";
     font-size: 1em;
     font-weight: 300;
+    line-height: 1.5em;
 }
 .shortlist{
   padding-bottom: 2em;
@@ -112,9 +120,13 @@ dd {
   border-color: rgba(63,169,245,1);
 
 }
+img {
+    image-orientation: from-image;
+}
 figure {
   margin: auto;
   padding-bottom: 4em;
+
 }
 figcaption {
   width: 50%;
@@ -151,6 +163,7 @@ footer {
     padding-top: 8em;
     font-size:1.1em;
   }
+
 
   /* days */
 
