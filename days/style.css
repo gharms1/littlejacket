@@ -14,6 +14,7 @@
     zoom: 1; /* IE < 8 */
 }
 
+
 body {
   font-family: "work sans", Arial, sans-serif;
   font-weight: 300;
@@ -27,6 +28,7 @@ body {
 main {
   padding-top: 6em;
   margin: 0 auto;
+
 }
 
 header {
@@ -45,6 +47,10 @@ a:hover {
   font-weight: 700;
   color: rgba(63,169,245,1);
 }
+strong{
+  font-weight: 500;
+}
+
 /* navigation */
 nav {
   display: block;
@@ -112,12 +118,27 @@ dd {
 }
 
 
+
+.jams dd {
+  font-weight: 700;
+  color: rgba(63,169,245,1);
+}
+em {
+  font-style:normal;
+  font-family: "Work Sans";
+  font-size: .8em;
+  font-weight: 500;
+  color: black;
+}
+
+
 /* image */
 .longlist img{
   max-width: 100%;
   border-top: solid;
   border-width: 5px;
   border-color: rgba(63,169,245,1);
+  max-height: 90vh;
 
 }
 img {
@@ -163,13 +184,13 @@ footer {
     padding-top: 8em;
     font-size:1.1em;
   }
-
+  .logo{
+   width: 125px;
+   margin-left: 2em;
+  }
 
   /* days */
 
-  nav img{
-    width: 150px;
-  }
   .shortlist {
     float: left;
     width:25%;
@@ -189,8 +210,11 @@ footer {
 }
 
 /* Media Screen 600 */
-@media screen and (min-width: 800px) {
-
+@media screen and (min-width: 1000px) {
+  .logo{
+   width: 150px;
+   margin-left: 2em;
+  }
 
 
 }
