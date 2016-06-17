@@ -8,7 +8,7 @@
 }
 
 .clearfix:after {
-    clear: both;
+    clear:both;
 }
 .clearfix {
     zoom: 1; /* IE < 8 */
@@ -24,6 +24,7 @@ body {
   border-width: 20px;
   border-color: rgba(63,169,245,1);
 }
+
 
 main {
   padding-top: 6em;
@@ -135,19 +136,24 @@ em {
 /* image */
 .longlist img{
   max-width: 100%;
-  border-top: solid;
-  border-width: 5px;
-  border-color: rgba(63,169,245,1);
-  max-height: 90vh;
+
 
 }
 img {
     image-orientation: from-image;
+
 }
 figure {
   margin: auto;
   padding-bottom: 4em;
+  border-top: solid;
+  border-width: 5px;
+  border-color: rgba(63,169,245,1);
+  max-height: 90vh;
+}
 
+figure img{
+  filter: grayscale(100%);
 }
 figcaption {
   width: 50%;

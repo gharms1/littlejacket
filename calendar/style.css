@@ -58,10 +58,10 @@ nav {
 
 
 
-
 .days {
     padding: 10px 0;
     margin: 0 auto;
+
 
 }
 
@@ -75,8 +75,16 @@ nav {
   font-size:1.5em;
 }
 
+.work{
+  padding: 5px;
+  background: rgba(133,214,253,1);
+  color: white;
+  font-weight: 700;
+  height: .8em;
+
+}
 hr {
-  color: rgba(133,214,253,1);
+
 margin-left: auto;
 margin-right: auto;
 height: .1em;
