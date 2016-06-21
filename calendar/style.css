@@ -76,11 +76,11 @@ nav {
 }
 
 .work{
-  padding: 5px;
-  background: rgba(133,214,253,1);
-  color: white;
-  font-weight: 700;
-  height: .8em;
+  border-bottom:solid;
+  border-color: rgba(133,214,253,1);
+  border-width: 10px;
+  height: 1em;
+
 
 }
 hr {
@@ -96,8 +96,8 @@ border: 0 none;
 /* day highlighted */
 a:hover {
     padding: 5px;
-    background: rgba(133,214,253,1);
-    color: white;
+    /*background: rgba(133,214,253,1);*/
+
     font-weight: 700;
     height: 1em;
 }
@@ -106,7 +106,7 @@ a:hover {
     padding: 5px;
     font-weight: 700;
     font-size: .5em;
-    color: rgba(133,214,253,1);
+    color: rgba(63,169,245,1);
 }
 
 /* footer */
@@ -137,8 +137,12 @@ footer {
 
 }
 
-/* Media Screen 600 */
+/* Media Screen 800 */
 @media screen and (min-width: 800px) {
+.work{
+      border-width: 20px;
+}
+
 
   /* days */
   .days {
