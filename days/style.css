@@ -186,6 +186,8 @@ footer {
 
 /* Media Screen 600 */
 @media screen and (min-width: 600px) {
+  
+
   main {
     padding-top: 8em;
     font-size:1.1em;

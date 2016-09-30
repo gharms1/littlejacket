@@ -7,7 +7,7 @@
     <title>GH @ LJ | June 08</title>
     <meta name="description" content="Page Description Goes Here">
   </head>
-  <body>
+  <body id="id_body_border" onLoad="myFunction();">
       <header class="clearfix">
             <a href="../calendar/index.html" class="logo"><img src="../logo/gh_lj_logo.svg"></a>
 
@@ -97,3 +97,31 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 
 </html>
+
+<script>
+function myFunction() {
+    var obj_id = document.getElementById("id_body_border");
+	myRandomNumber = Math.floor((Math.random() * 4) + 1);
+	//alert("random number is: " + myRandomNumber);
+	if (myRandomNumber == 1)
+	{
+	    obj_id.style.borderColor = '#FFDE00';
+	}
+
+	if (myRandomNumber == 2)
+	{
+	    obj_id.style.borderColor = '#FF931E';
+	}
+
+	if (myRandomNumber == 3)
+	{
+	    obj_id.style.borderColor = '#FF5525';
+	}
+
+	if (myRandomNumber == 4)
+	{
+	    obj_id.style.borderColor = '#FF7EFF';
+	}
+
+}
+</script>
